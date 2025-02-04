@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Comic Sans' ;
+    src: url(COMIC.TTF) format('truetype');
+    font-weight:normal;
+    font-style:normal;       
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    height: 150px;
+    
+}
+header > h1{
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+color: rgba(255, 255, 255, 0.945);
+font-variant: small-caps;
+font-size: 64px;
+padding-top: 50px;
+}
+header > p{
+    color: white;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.texto, .imagem{
+    font-family: 'Comic Sans';
+    font-size: 18px;
+    line-height: 2.5em;
+    font-style: italic;
+    padding-top: 10vh;
+    padding-bottom: 10vh; 
+    padding-left: 30px;
+    
+     
+}
+.texto > p{
+    padding-bottom: 2em;
+    text-shadow: 1.5px 1.5px 1.5px 0px black;
+    
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.267);
+    display: inline-block;
+    padding: 30px;
+    text-shadow: 1.5px 1.5px 1.5px 0px black;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;  
+}
+footer>a{
+    color: white;
+    text-decoration: none;
+}
+footer>a:hover{
+    text-decoration: underline;
+    color:darkgray;
+}
